@@ -1,6 +1,8 @@
 # StreamiOSChatSDKPrototyping
 Prototyping Stream Chat iOS SDK with SwiftUI. It includes SwiftUI animations and interaction styles.
 
+![Animated Message Reactions](https://github.com/GetStream/StreamiOSChatSDKPrototyping/blob/main/GIF%20Previews/reactions.gif)
+
 ## Main Screens
 1. Channel List (contacts)
 2. Select User
@@ -8,7 +10,7 @@ Prototyping Stream Chat iOS SDK with SwiftUI. It includes SwiftUI animations and
 
 ## Animations
 1. No message animation (start conversation)
-2. Typing indicators (6 variants)
+2. Typing indicators (7 variants with combination of opacity, scale and position)
 3. Loading and splash screen animations
 4. Clapping Hands animated emoji
 5. Revolving Hearts animated emoji
