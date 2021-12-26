@@ -4,7 +4,7 @@ This includes the layout and composition of the main screens such as the channel
 ![Animated Message Reactions](https://github.com/GetStream/StreamiOSChatSDKPrototyping/blob/main/GIF%20Previews/reactions.gif)
 
 ## Check the tutorials (blog post and video) for this project
-1. <a href="hhttps://getstream.io/blog/prototyping-ios-sdk-swiftui-part-1/">Stream blog</a>
+1. <a href="https://getstream.io/blog/prototyping-ios-sdk-swiftui-part-1/">Stream blog</a>
 2. <a href="https://medium.com/@amosgyamfi/prototyping-streams-ios-chat-sdk-using-swiftui-part-1-eb8620a628ce">Medium</a>
 3. <a href="https://www.youtube.com/watch?v=xEWBIlQz35M&list=PLNBhvhkAJG6tJYnY-5oZ1JCp2fBNbVL_6">YouTube</a>
 
