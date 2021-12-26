@@ -11,7 +11,7 @@ import SwiftUI
 struct StreamiOSChatSDKPrototypingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SelectUserListView()
         }
     }
 }
