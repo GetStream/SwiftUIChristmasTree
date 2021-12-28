@@ -26,4 +26,4 @@ This includes the layout and composition of the main screens such as the channel
 1. Tap and hold to reveal context menus
 2. Scroll messages
 3. Reveal reactions with longpress
-4. 4. Pull to refresh
+4. Pull to refresh
