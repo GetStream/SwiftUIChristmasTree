@@ -21,9 +21,11 @@ This includes the layout and composition of the main screens such as the channel
 4. Clapping Hands animated emoji
 5. Revolving Hearts animated emoji
 6. Reactions animation (Spring Animation)
+7. 'Like' animation
 
 ## Interaction Styles
 1. Tap and hold to reveal context menus
-2. Scroll messages
+2. Scrolling list of messages
 3. Reveal reactions with longpress
 4. Pull to refresh
+5. Swipe actions
