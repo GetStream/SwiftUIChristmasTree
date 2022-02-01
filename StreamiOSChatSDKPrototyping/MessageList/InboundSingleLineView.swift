@@ -2,7 +2,7 @@
 //  InboundSingleLineView.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI

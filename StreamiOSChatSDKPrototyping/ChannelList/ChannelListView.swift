@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Stream iOS Chat SDK Prototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
@@ -21,7 +21,6 @@ struct ChannelListView: View {
             HeaderView()
             CustomSearchBarView()
             // Populating Message List
-            if #available(iOS 15.0, *) {
                 List(messages) { item in
                     HStack {
                         ZStack(alignment: .topTrailing) {
@@ -60,12 +59,9 @@ struct ChannelListView: View {
                  .refreshable{
                         print("Pull to refresh")
                     }
-            } else {
-                // Fallback on earlier versions
-            }
             
-        // Tab bar view
            TabBarView()
+            
         } // All Views
         .padding()
     }
@@ -75,8 +71,6 @@ struct ChannelListView_Previews: PreviewProvider {
     static var previews: some View {
             ChannelListView(messages: ChannelData)
                 .preferredColorScheme(.dark)
-        //MessageListView()
-            //.preferredColorScheme(.dark)
     }
 }
 

@@ -27,11 +27,12 @@
 		4B949A132721A66200AB8BFB /* SwipeToDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B949A122721A66200AB8BFB /* SwipeToDeleteView.swift */; };
 		4B949A1627221E3200AB8BFB /* ComposeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B949A1527221E3200AB8BFB /* ComposeAreaView.swift */; };
 		4B949A1827222C8300AB8BFB /* MessageListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B949A1727222C8300AB8BFB /* MessageListHeaderView.swift */; };
-		4B95ED0B27312F180040A101 /* NavBarsComposeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95ED0A27312F180040A101 /* NavBarsComposeArea.swift */; };
-		4BAFA95A272D2F3700DFE06E /* TapToViewPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFA959272D2F3700DFE06E /* TapToViewPhoto.swift */; };
-		4BAFA95C272D337D00DFE06E /* FlickAndZoomPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFA95B272D337D00DFE06E /* FlickAndZoomPhotos.swift */; };
+		4BA099FC2796C08200063BFE /* ZoomAndScaleInPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA099F62796C08100063BFE /* ZoomAndScaleInPlace.swift */; };
+		4BA099FE2796C08200063BFE /* PhotosGalleryZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA099F82796C08100063BFE /* PhotosGalleryZoom.swift */; };
+		4BA099FF2796C08200063BFE /* ZoomAndRestInPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA099F92796C08200063BFE /* ZoomAndRestInPlace.swift */; };
+		4BA09A002796C08200063BFE /* SinglePhotoZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA099FA2796C08200063BFE /* SinglePhotoZoom.swift */; };
+		4BA09A012796C08200063BFE /* PhotosGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA099FB2796C08200063BFE /* PhotosGallery.swift */; };
 		4BBDBC0D2723BC0D006B165C /* IsTypingOpacityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC0C2723BC0D006B165C /* IsTypingOpacityView.swift */; };
-		4BBDBC0F2723BCB4006B165C /* NoMessagesAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC0E2723BCB4006B165C /* NoMessagesAnimationView.swift */; };
 		4BBDBC182723BED4006B165C /* BasicStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC172723BED4006B165C /* BasicStructureView.swift */; };
 		4BBDBC1A2723C878006B165C /* IsTypingScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC192723C878006B165C /* IsTypingScaleView.swift */; };
 		4BBDBC1C2723CADA006B165C /* IsTypingOpacityScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC1B2723CADA006B165C /* IsTypingOpacityScaleView.swift */; };
@@ -51,10 +52,9 @@
 		4BE8F1E7271980960091DBBD /* InboundMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8F1E6271980960091DBBD /* InboundMessageView.swift */; };
 		4BE8F1E927199B390091DBBD /* ReactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8F1E827199B390091DBBD /* ReactionsView.swift */; };
 		4BEB28D727259A6500E89D2D /* IsTypingPositionWithDelayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB28D627259A6400E89D2D /* IsTypingPositionWithDelayView.swift */; };
-		4BEB28DA27259E4100E89D2D /* TransitionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB28D927259E4100E89D2D /* TransitionsTest.swift */; };
-		4BEB28DC2725B4B300E89D2D /* TransitionSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB28DB2725B4B300E89D2D /* TransitionSecond.swift */; };
-		4BEB28DE2725B57600E89D2D /* TransitionThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB28DD2725B57600E89D2D /* TransitionThird.swift */; };
 		4BF435382727B1A600567388 /* StreamSplashAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF435372727B1A600567388 /* StreamSplashAnimation.swift */; };
+		4BF50B7227A6B87400BA482E /* Iceland3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF50B7127A6B87400BA482E /* Iceland3.swift */; };
+		4BF50B7427A6BD0300BA482E /* Iceland5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF50B7327A6BD0300BA482E /* Iceland5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,11 +78,12 @@
 		4B949A122721A66200AB8BFB /* SwipeToDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDeleteView.swift; sourceTree = "<group>"; };
 		4B949A1527221E3200AB8BFB /* ComposeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeAreaView.swift; sourceTree = "<group>"; };
 		4B949A1727222C8300AB8BFB /* MessageListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListHeaderView.swift; sourceTree = "<group>"; };
-		4B95ED0A27312F180040A101 /* NavBarsComposeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarsComposeArea.swift; sourceTree = "<group>"; };
-		4BAFA959272D2F3700DFE06E /* TapToViewPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapToViewPhoto.swift; sourceTree = "<group>"; };
-		4BAFA95B272D337D00DFE06E /* FlickAndZoomPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickAndZoomPhotos.swift; sourceTree = "<group>"; };
+		4BA099F62796C08100063BFE /* ZoomAndScaleInPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomAndScaleInPlace.swift; sourceTree = "<group>"; };
+		4BA099F82796C08100063BFE /* PhotosGalleryZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosGalleryZoom.swift; sourceTree = "<group>"; };
+		4BA099F92796C08200063BFE /* ZoomAndRestInPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomAndRestInPlace.swift; sourceTree = "<group>"; };
+		4BA099FA2796C08200063BFE /* SinglePhotoZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePhotoZoom.swift; sourceTree = "<group>"; };
+		4BA099FB2796C08200063BFE /* PhotosGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosGallery.swift; sourceTree = "<group>"; };
 		4BBDBC0C2723BC0D006B165C /* IsTypingOpacityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingOpacityView.swift; sourceTree = "<group>"; };
-		4BBDBC0E2723BCB4006B165C /* NoMessagesAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoMessagesAnimationView.swift; sourceTree = "<group>"; };
 		4BBDBC172723BED4006B165C /* BasicStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStructureView.swift; sourceTree = "<group>"; };
 		4BBDBC192723C878006B165C /* IsTypingScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingScaleView.swift; sourceTree = "<group>"; };
 		4BBDBC1B2723CADA006B165C /* IsTypingOpacityScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingOpacityScaleView.swift; sourceTree = "<group>"; };
@@ -103,10 +104,9 @@
 		4BE8F1E6271980960091DBBD /* InboundMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboundMessageView.swift; sourceTree = "<group>"; };
 		4BE8F1E827199B390091DBBD /* ReactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsView.swift; sourceTree = "<group>"; };
 		4BEB28D627259A6400E89D2D /* IsTypingPositionWithDelayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingPositionWithDelayView.swift; sourceTree = "<group>"; };
-		4BEB28D927259E4100E89D2D /* TransitionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsTest.swift; sourceTree = "<group>"; };
-		4BEB28DB2725B4B300E89D2D /* TransitionSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecond.swift; sourceTree = "<group>"; };
-		4BEB28DD2725B57600E89D2D /* TransitionThird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionThird.swift; sourceTree = "<group>"; };
 		4BF435372727B1A600567388 /* StreamSplashAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamSplashAnimation.swift; sourceTree = "<group>"; };
+		4BF50B7127A6B87400BA482E /* Iceland3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iceland3.swift; sourceTree = "<group>"; };
+		4BF50B7327A6BD0300BA482E /* Iceland5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iceland5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,19 +152,24 @@
 			path = MessageList;
 			sourceTree = "<group>";
 		};
-		4B95ED0927312EF20040A101 /* Tutorials */ = {
+		4BA099F52796C05000063BFE /* PhotoZoom */ = {
 			isa = PBXGroup;
 			children = (
-				4B95ED0A27312F180040A101 /* NavBarsComposeArea.swift */,
+				4BA099F82796C08100063BFE /* PhotosGalleryZoom.swift */,
+				4BA099FB2796C08200063BFE /* PhotosGallery.swift */,
+				4BA099FA2796C08200063BFE /* SinglePhotoZoom.swift */,
+				4BA099F92796C08200063BFE /* ZoomAndRestInPlace.swift */,
+				4BA099F62796C08100063BFE /* ZoomAndScaleInPlace.swift */,
+				4BF50B7127A6B87400BA482E /* Iceland3.swift */,
+				4BF50B7327A6BD0300BA482E /* Iceland5.swift */,
 			);
-			path = Tutorials;
+			path = PhotoZoom;
 			sourceTree = "<group>";
 		};
 		4BAFA958272D2DDF00DFE06E /* InteractionStyles */ = {
 			isa = PBXGroup;
 			children = (
-				4BAFA959272D2F3700DFE06E /* TapToViewPhoto.swift */,
-				4BAFA95B272D337D00DFE06E /* FlickAndZoomPhotos.swift */,
+				4BA099F52796C05000063BFE /* PhotoZoom */,
 			);
 			path = InteractionStyles;
 			sourceTree = "<group>";
@@ -179,7 +184,6 @@
 				4BBDBC1D2723CC43006B165C /* IsTypingPositionView.swift */,
 				4BBDBC1F2723CE61006B165C /* IsTypingPositionOpacityView.swift */,
 				4BBDBC212723D036006B165C /* IsTypingOpacityPositionScaleView.swift */,
-				4BBDBC0E2723BCB4006B165C /* NoMessagesAnimationView.swift */,
 				4B0DC8B2272507530060A0CC /* StreamLogoLaunch.swift */,
 				4B0B67A4272C038E000E9DA9 /* SplashAnimation.swift */,
 				4BF435372727B1A600567388 /* StreamSplashAnimation.swift */,
@@ -225,7 +229,6 @@
 		4BCE875E27182C4200821EF1 /* StreamiOSChatSDKPrototyping */ = {
 			isa = PBXGroup;
 			children = (
-				4BEB28D827259E1E00E89D2D /* Prototyping */,
 				4BBDBC162723BE98006B165C /* BasicStructure */,
 				4BCE875F27182C4200821EF1 /* StreamiOSChatSDKPrototypingApp.swift */,
 				4BCE876127182C4200821EF1 /* SelectUserListView.swift */,
@@ -236,7 +239,6 @@
 				4BAFA958272D2DDF00DFE06E /* InteractionStyles */,
 				4BBDBC0B2723BBA5006B165C /* Animations */,
 				4BBDBC252723D605006B165C /* AnimatedEmojis */,
-				4B95ED0927312EF20040A101 /* Tutorials */,
 				4BCE876327182C4400821EF1 /* Assets.xcassets */,
 				4BCE876527182C4400821EF1 /* Preview Content */,
 			);
@@ -275,16 +277,6 @@
 				4B949A102721A40800AB8BFB /* ContextMenuView.swift */,
 			);
 			path = LongPressGesture;
-			sourceTree = "<group>";
-		};
-		4BEB28D827259E1E00E89D2D /* Prototyping */ = {
-			isa = PBXGroup;
-			children = (
-				4BEB28D927259E4100E89D2D /* TransitionsTest.swift */,
-				4BEB28DB2725B4B300E89D2D /* TransitionSecond.swift */,
-				4BEB28DD2725B57600E89D2D /* TransitionThird.swift */,
-			);
-			path = Prototyping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,49 +350,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B0DC8AF2724E9C00060A0CC /* SearchBarView.swift in Sources */,
-				4BBDBC0F2723BCB4006B165C /* NoMessagesAnimationView.swift in Sources */,
 				4B949A112721A40900AB8BFB /* ContextMenuView.swift in Sources */,
 				4BBDBC292723DA40006B165C /* ClappingHandsEmojiView.swift in Sources */,
 				4BEB28D727259A6500E89D2D /* IsTypingPositionWithDelayView.swift in Sources */,
+				4BA099FC2796C08200063BFE /* ZoomAndScaleInPlace.swift in Sources */,
 				4B0E27DC272160890003D842 /* ChatsView.swift in Sources */,
 				4BBDBC222723D036006B165C /* IsTypingOpacityPositionScaleView.swift in Sources */,
 				4BE8F1E127186DA60091DBBD /* ChannelListView.swift in Sources */,
 				4B1BE0D3272288D4000D5259 /* InboundDoubleLineView.swift in Sources */,
-				4BEB28DC2725B4B300E89D2D /* TransitionSecond.swift in Sources */,
-				4BAFA95C272D337D00DFE06E /* FlickAndZoomPhotos.swift in Sources */,
 				4B949A1627221E3200AB8BFB /* ComposeAreaView.swift in Sources */,
+				4BF50B7427A6BD0300BA482E /* Iceland5.swift in Sources */,
 				4BE8F1E927199B390091DBBD /* ReactionsView.swift in Sources */,
 				4B1BE0D5272289C9000D5259 /* InboundSingleLineView.swift in Sources */,
 				4BE8F1E7271980960091DBBD /* InboundMessageView.swift in Sources */,
-				4B95ED0B27312F180040A101 /* NavBarsComposeArea.swift in Sources */,
 				4BE8F1E4271950880091DBBD /* ChannelListData.swift in Sources */,
 				4BF435382727B1A600567388 /* StreamSplashAnimation.swift in Sources */,
 				4B8FDD5D27229A5A007E1DB5 /* OutboundDoubleLineView.swift in Sources */,
 				4B949A132721A66200AB8BFB /* SwipeToDeleteView.swift in Sources */,
+				4BA09A012796C08200063BFE /* PhotosGallery.swift in Sources */,
 				4B0E27E027217B870003D842 /* ChannelListEmptyView.swift in Sources */,
-				4BEB28DA27259E4100E89D2D /* TransitionsTest.swift in Sources */,
 				4BBDBC1C2723CADA006B165C /* IsTypingOpacityScaleView.swift in Sources */,
 				4BBDBC1A2723C878006B165C /* IsTypingScaleView.swift in Sources */,
 				4B0DC8B527251ABC0060A0CC /* StreamLogoLaunchLineWave.swift in Sources */,
 				4BBDBC0D2723BC0D006B165C /* IsTypingOpacityView.swift in Sources */,
 				4B1BE0D727228BD0000D5259 /* InboundTrippleLineView.swift in Sources */,
-				4BEB28DE2725B57600E89D2D /* TransitionThird.swift in Sources */,
 				4BE8F1DF271840E50091DBBD /* SelectUserListData.swift in Sources */,
 				4BBDBC202723CE61006B165C /* IsTypingPositionOpacityView.swift in Sources */,
 				4B0E27E227217CF80003D842 /* HeaderView.swift in Sources */,
 				4B949A1827222C8300AB8BFB /* MessageListHeaderView.swift in Sources */,
 				4BBDBC272723D638006B165C /* RevolvingHeartsView.swift in Sources */,
 				4B0E27DE272160A20003D842 /* MentionsView.swift in Sources */,
-				4BAFA95A272D2F3700DFE06E /* TapToViewPhoto.swift in Sources */,
 				4BCE876227182C4200821EF1 /* SelectUserListView.swift in Sources */,
+				4BA09A002796C08200063BFE /* SinglePhotoZoom.swift in Sources */,
 				4B0DC8B12724FBDD0060A0CC /* CustomSearchBarView.swift in Sources */,
 				4B0E27E427217D910003D842 /* TabBarView.swift in Sources */,
+				4BA099FE2796C08200063BFE /* PhotosGalleryZoom.swift in Sources */,
 				4B8FDD612722AB2A007E1DB5 /* OutboundTrippleLineView.swift in Sources */,
+				4BA099FF2796C08200063BFE /* ZoomAndRestInPlace.swift in Sources */,
 				4BBDBC182723BED4006B165C /* BasicStructureView.swift in Sources */,
 				4B0DC8B3272507530060A0CC /* StreamLogoLaunch.swift in Sources */,
 				4B0B67A5272C038E000E9DA9 /* SplashAnimation.swift in Sources */,
 				4BCE876027182C4200821EF1 /* StreamiOSChatSDKPrototypingApp.swift in Sources */,
 				4BBDBC1E2723CC43006B165C /* IsTypingPositionView.swift in Sources */,
+				4BF50B7227A6B87400BA482E /* Iceland3.swift in Sources */,
 				4B8FDD5F27229E62007E1DB5 /* OutboundSingleLineView.swift in Sources */,
 				4BBDBC242723D17B006B165C /* IsTypingView.swift in Sources */,
 			);
@@ -541,7 +533,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,7 +563,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

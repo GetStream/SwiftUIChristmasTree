@@ -2,7 +2,7 @@
 //  SwipeToDeleteView.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
@@ -17,12 +17,9 @@ struct SwipeToDeleteView: View {
             HeaderView()
             CustomSearchBarView()
             List {
-                if #available(iOS 15.0, *) {
                     HStack {
                         ZStack(alignment: .topTrailing) {
                             Image("user_han")
-                            //User status: Online or offline
-                            
                         }
                         
                         VStack(alignment: .leading){
@@ -61,6 +58,8 @@ struct SwipeToDeleteView: View {
                         } label: {
                             Label("Delete", systemImage: "trash.fill")
                         }
+                    
+                        
                         Button {
                             print("Mute user")
                         } label: {
@@ -68,12 +67,9 @@ struct SwipeToDeleteView: View {
                         }
                         .tint(.indigo)
                     }
-                } else {
-                    // Fallback on earlier versions
-                }
-                 
+                
                 // List 2: Swipe action with text button
-                if #available(iOS 15.0, *) {
+               
                     HStack {
                         ZStack(alignment: .topTrailing) {
                             Image("user_chew")
@@ -119,12 +115,9 @@ struct SwipeToDeleteView: View {
                         }
                         .tint(.red)
                     }
-                } else {
-                    // Fallback on earlier versions
-                }
-                
+            
                 // List 3: Swipe actions for both left and right
-                if #available(iOS 15.0, *) {
+                
                     HStack {
                         ZStack(alignment: .topTrailing) {
                             Image("user_luke")
@@ -173,9 +166,6 @@ struct SwipeToDeleteView: View {
                             Label("Trash", systemImage: "trash.fill")
                         }
                     }
-                } else {
-                    // Fallback on earlier versions
-                }
                 
             }.listStyle(.plain)
             

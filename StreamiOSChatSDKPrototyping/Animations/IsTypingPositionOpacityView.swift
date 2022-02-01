@@ -2,7 +2,7 @@
 //  IsTypingPositionOpacityView.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
@@ -26,7 +26,7 @@ struct IsTypingPositionOpacityView: View {
                 Text("Opacity Position")
                     .font(.body)
                 HStack {
-                    if #available(iOS 15.0, *) {
+                    
                         HStack(spacing: 4) {
                             Circle()
                                 .frame(width: 6, height: 6)
@@ -44,12 +44,9 @@ struct IsTypingPositionOpacityView: View {
                                 .offset(y: isTyping ? 2.5 : -2.5)
                                 .animation(.easeIn(duration: 1).repeatForever(autoreverses: true), value: isTyping)
                         }
-                        .task{
+                        .onAppear{
                             isTyping.toggle()
                         }
-                    } else {
-                        // Fallback on earlier versions
-                    }
                     
                     Text("is typing")
                         .font(.footnote)

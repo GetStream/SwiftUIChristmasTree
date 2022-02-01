@@ -2,17 +2,25 @@
 //  SelectUserListView.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
 
 struct ChannelListEmptyView: View {
     
+    // 1. Animate From: Chaticon animations
     @State private var blinkLeftEye = true
     @State private var blinkRightEye = true
     @State private var trimMouth = false
     @State private var shake = false
+    
+    // 1. Animate From: Writing animation
+    @State private var writing = false
+    @State private var movingCursor = false
+    @State private var blinkingCursor = false
+    
+    let cursorColor = Color(#colorLiteral(red: 0, green: 0.368627451, blue: 1, alpha: 1))
     
     let emptyChatColor = Color(#colorLiteral(red: 0.2997708321, green: 0.3221338987, blue: 0.3609524071, alpha: 1))
     var body: some View {
@@ -20,7 +28,6 @@ struct ChannelListEmptyView: View {
             HeaderView()
             Spacer()
             VStack {
-                if #available(iOS 15.0, *) {
                     ZStack {
                         Image("emptyChatDark")
                             .rotationEffect(.degrees(shake ? -5 : 5), anchor: .bottomTrailing)
@@ -41,8 +48,8 @@ struct ChannelListEmptyView: View {
                                 .rotationEffect(.degrees(200))
                         }.foregroundColor(emptyChatColor)
                             .rotationEffect(.degrees(shake ? -5 : 5), anchor: .bottomLeading)
-                    }
-                    .task {
+                    } // 2. Animate To
+                    .onAppear {
                         withAnimation(.easeInOut(duration: 1).repeatForever()){
                             blinkRightEye.toggle()
                         }
@@ -57,14 +64,31 @@ struct ChannelListEmptyView: View {
                         withAnimation(.easeOut(duration: 1).repeatForever()){
                             shake.toggle()
                         }
+                        
+                        // Writing Animation
+                        withAnimation(.easeOut(duration: 2).delay(1).repeatForever(autoreverses: true)) {
+                           writing.toggle()
+                            movingCursor.toggle()
+                        }
+                        
+                        // Cursor Blinking Animation
+                        withAnimation(.easeInOut(duration: 0.6).repeatForever(autoreverses: true)) {
+                        
+                            blinkingCursor.toggle()
+                        }
                     }
-                } else {
-                    // Fallback on earlier versions
+               
+                ZStack(alignment: .leading) {
+                    Text("Let’s start chatting!")
+                        .font(.body)
+                        .mask(Rectangle().offset(x: writing ? 0 : -150))
+                    Rectangle()
+                        .fill(cursorColor)
+                        .opacity(blinkingCursor ? 0 : 1)
+                        .frame(width: 2, height: 24)
+                        .offset(x: movingCursor ? 148 : 0)
                 }
                 
-                
-                Text("Let’s start chatting!")
-                    .font(.body)
                 Text("How about sending your first message to a friend?")
                     .font(.body)
                     .foregroundColor(.secondary)

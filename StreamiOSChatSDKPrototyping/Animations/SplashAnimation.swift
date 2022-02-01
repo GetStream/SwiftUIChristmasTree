@@ -2,7 +2,7 @@
 //  SplashAnimation.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
@@ -44,7 +44,7 @@ struct SplashAnimation: View {
                             .opacity(splash ? 0 : 1)
                             .offset(y: 10)
                             .offset(x: move ? -150 : 150)
-                            .task {
+                            .onAppear {
                                 withAnimation(.easeInOut(duration: 1).repeatCount(8, autoreverses: true)){
                                     swing.toggle()
                                 }

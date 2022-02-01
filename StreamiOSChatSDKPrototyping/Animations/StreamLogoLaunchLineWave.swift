@@ -2,7 +2,7 @@
 //  StreamLogoLaunchLineWave.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
@@ -17,7 +17,7 @@ struct StreamLogoLaunchLineWave: View {
     let up = UIScreen.main.bounds.height
     
     var body: some View {
-        if #available(iOS 15.0, *) {
+        
             ZStack {
                 StreamBlue
                     .opacity(0.25)
@@ -42,7 +42,7 @@ struct StreamLogoLaunchLineWave: View {
                 
             }
             .offset(y: moveUp ? -up: up + 200)
-            .task {
+            .onAppear {
                 swing.toggle()
                 move.toggle()
                 
@@ -55,9 +55,6 @@ struct StreamLogoLaunchLineWave: View {
                 }
         }
             }
-    } else {
-        // Fallback on earlier versions
-    }
     }
 }
 

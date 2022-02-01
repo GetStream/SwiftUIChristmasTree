@@ -2,7 +2,7 @@
 //  InboundDoubleLineView.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
@@ -37,7 +37,7 @@ struct InboundDoubleLineView: View {
                     .font(.footnote)
                     .foregroundColor(.secondary)*/
                 HStack {
-                    if #available(iOS 15.0, *) {
+                    
                         HStack(spacing: 4) {
                             Circle()
                                 .frame(width: 6, height: 6)
@@ -55,17 +55,14 @@ struct InboundDoubleLineView: View {
                                 .offset(y: isTyping ? 2.5 : -2.5)
                                 .animation(.easeIn(duration: 1).repeatForever(autoreverses: true), value: isTyping)
                         }
-                        .task{
+                        .onAppear{
                             isTyping.toggle()
                         }
-                    } else {
-                        // Fallback on earlier versions
-                    }
                     
                     Text("is typing")
                         .font(.footnote)
                         .lineLimit(1)
-                    .foregroundColor(.secondary)
+                        .foregroundColor(.secondary)
                 }
             }
         }

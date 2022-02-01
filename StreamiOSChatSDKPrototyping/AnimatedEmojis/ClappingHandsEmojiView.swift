@@ -2,7 +2,7 @@
 //  ClappingHandsEmojiView.swift
 //  ClappingHands
 //
-//  Created by Amos Gyamfi on 5.9.2021.
+//  Created by Amos Gyamfi from getstream.io on 5.11.2021.
 //
 
 import SwiftUI
@@ -18,7 +18,6 @@ struct ClappingHandsEmojiView: View {
        
         VStack(alignment: .trailing) {
             ZStack {
-                    if #available(iOS 15.0, *) {
                         Image("head")
                         
                         VStack {
@@ -55,16 +54,13 @@ struct ClappingHandsEmojiView: View {
                             }
                         
                         }
-                        .task{
+                        .onAppear{
                             // Final Animation States
                             clapping.toggle()
                             blinking.toggle()
                             openingClosing.toggle()
                     }
                             
-                        } else {
-                            // Fallback on earlier versions
-                        }
             }.frame(width: 58, height: 58)
              .scaleEffect(0.25)
             

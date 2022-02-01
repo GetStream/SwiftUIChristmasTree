@@ -2,7 +2,7 @@
 //  IsTypingScaleView.swift
 //  StreamiOSChatSDKPrototyping
 //
-//  Created by amos.gyamfi@getstream.io on 14.10.2021.
+//  Created by Amos from getstream.io on 14.10.2021.
 //
 
 import SwiftUI
@@ -26,7 +26,7 @@ struct IsTypingScaleView: View {
                 Text("Scale")
                     .font(.body)
                 HStack {
-                    if #available(iOS 15.0, *) {
+                   
                         HStack(spacing: 4) {
                             Circle()
                                 .frame(width: 6, height: 6)
@@ -41,12 +41,9 @@ struct IsTypingScaleView: View {
                                 .scaleEffect(isTyping ? 1 : 0)
                                 .animation(.easeOut(duration: 1).repeatForever(autoreverses: true), value: isTyping)
                         }
-                        .task{
+                        .onAppear{
                             isTyping.toggle()
                         }
-                    } else {
-                        // Fallback on earlier versions
-                    }
                     
                     Text("is typing")
                         .font(.footnote)
