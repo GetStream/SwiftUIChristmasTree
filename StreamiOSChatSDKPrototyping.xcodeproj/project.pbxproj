@@ -33,7 +33,6 @@
 		4BA09A002796C08200063BFE /* SinglePhotoZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA099FA2796C08200063BFE /* SinglePhotoZoom.swift */; };
 		4BA09A012796C08200063BFE /* PhotosGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA099FB2796C08200063BFE /* PhotosGallery.swift */; };
 		4BBDBC0D2723BC0D006B165C /* IsTypingOpacityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC0C2723BC0D006B165C /* IsTypingOpacityView.swift */; };
-		4BBDBC182723BED4006B165C /* BasicStructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC172723BED4006B165C /* BasicStructureView.swift */; };
 		4BBDBC1A2723C878006B165C /* IsTypingScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC192723C878006B165C /* IsTypingScaleView.swift */; };
 		4BBDBC1C2723CADA006B165C /* IsTypingOpacityScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC1B2723CADA006B165C /* IsTypingOpacityScaleView.swift */; };
 		4BBDBC1E2723CC43006B165C /* IsTypingPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDBC1D2723CC43006B165C /* IsTypingPositionView.swift */; };
@@ -84,7 +83,6 @@
 		4BA099FA2796C08200063BFE /* SinglePhotoZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePhotoZoom.swift; sourceTree = "<group>"; };
 		4BA099FB2796C08200063BFE /* PhotosGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosGallery.swift; sourceTree = "<group>"; };
 		4BBDBC0C2723BC0D006B165C /* IsTypingOpacityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingOpacityView.swift; sourceTree = "<group>"; };
-		4BBDBC172723BED4006B165C /* BasicStructureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStructureView.swift; sourceTree = "<group>"; };
 		4BBDBC192723C878006B165C /* IsTypingScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingScaleView.swift; sourceTree = "<group>"; };
 		4BBDBC1B2723CADA006B165C /* IsTypingOpacityScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingOpacityScaleView.swift; sourceTree = "<group>"; };
 		4BBDBC1D2723CC43006B165C /* IsTypingPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTypingPositionView.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		4BBDBC162723BE98006B165C /* BasicStructure */ = {
 			isa = PBXGroup;
 			children = (
-				4BBDBC172723BED4006B165C /* BasicStructureView.swift */,
 			);
 			path = BasicStructure;
 			sourceTree = "<group>";
@@ -387,7 +384,6 @@
 				4BA099FE2796C08200063BFE /* PhotosGalleryZoom.swift in Sources */,
 				4B8FDD612722AB2A007E1DB5 /* OutboundTrippleLineView.swift in Sources */,
 				4BA099FF2796C08200063BFE /* ZoomAndRestInPlace.swift in Sources */,
-				4BBDBC182723BED4006B165C /* BasicStructureView.swift in Sources */,
 				4B0DC8B3272507530060A0CC /* StreamLogoLaunch.swift in Sources */,
 				4B0B67A5272C038E000E9DA9 /* SplashAnimation.swift in Sources */,
 				4BCE876027182C4200821EF1 /* StreamiOSChatSDKPrototypingApp.swift in Sources */,

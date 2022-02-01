@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SplashAnimation: View {
     let StreamBlue = Color(#colorLiteral(red: 0, green: 0.368627451, blue: 1, alpha: 1))
-    
     // 1. Initial Animation States
     @State private var move = false
     @State private var swing = false
@@ -64,9 +63,7 @@ struct SplashAnimation: View {
                 .scaleEffect(2)
             }
     
-        } else {
-            // Fallback on earlier versions
-        }
+       
     }
 }
 
@@ -74,4 +71,6 @@ struct SplashAnimation_Previews: PreviewProvider {
     static var previews: some View {
         SplashAnimation()
     }
+}
+
 }
