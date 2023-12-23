@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BE6916A2B366C720047BD08 /* SwiftUIChristmasTreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE691692B366C720047BD08 /* SwiftUIChristmasTreeApp.swift */; };
+		4BE6916C2B366C720047BD08 /* SwiftUIXmasTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6916B2B366C720047BD08 /* SwiftUIXmasTree.swift */; };
+		4BE6916E2B366C740047BD08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6916D2B366C740047BD08 /* Assets.xcassets */; };
+		4BE691712B366C740047BD08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE691702B366C740047BD08 /* Preview Assets.xcassets */; };
+		4BE691922B367B430047BD08 /* PresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE691912B367B430047BD08 /* PresentView.swift */; };
+		4BE691942B368A270047BD08 /* GiftWithRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE691932B368A270047BD08 /* GiftWithRibbonView.swift */; };
+		4BE691962B368B770047BD08 /* HeartWithRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE691952B368B770047BD08 /* HeartWithRibbonView.swift */; };
+		4BE691982B368CD00047BD08 /* MrsClausView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE691972B368CD00047BD08 /* MrsClausView.swift */; };
+		4BE6919A2B3690260047BD08 /* FatherChristmasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE691992B3690260047BD08 /* FatherChristmasView.swift */; };
+		4BE6919C2B3690B00047BD08 /* MxClausView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6919B2B3690B00047BD08 /* MxClausView.swift */; };
+		4BE6919E2B3691470047BD08 /* CompositorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6919D2B3691470047BD08 /* CompositorView.swift */; };
+		4BE691A02B36A38B0047BD08 /* XmasSurpriseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6919F2B36A38B0047BD08 /* XmasSurpriseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BE691662B366C720047BD08 /* SwiftUIChristmasTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChristmasTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE691692B366C720047BD08 /* SwiftUIChristmasTreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChristmasTreeApp.swift; sourceTree = "<group>"; };
+		4BE6916B2B366C720047BD08 /* SwiftUIXmasTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIXmasTree.swift; sourceTree = "<group>"; };
+		4BE6916D2B366C740047BD08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BE691702B366C740047BD08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BE691912B367B430047BD08 /* PresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentView.swift; sourceTree = "<group>"; };
+		4BE691932B368A270047BD08 /* GiftWithRibbonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftWithRibbonView.swift; sourceTree = "<group>"; };
+		4BE691952B368B770047BD08 /* HeartWithRibbonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartWithRibbonView.swift; sourceTree = "<group>"; };
+		4BE691972B368CD00047BD08 /* MrsClausView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrsClausView.swift; sourceTree = "<group>"; };
+		4BE691992B3690260047BD08 /* FatherChristmasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatherChristmasView.swift; sourceTree = "<group>"; };
+		4BE6919B2B3690B00047BD08 /* MxClausView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MxClausView.swift; sourceTree = "<group>"; };
+		4BE6919D2B3691470047BD08 /* CompositorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositorView.swift; sourceTree = "<group>"; };
+		4BE6919F2B36A38B0047BD08 /* XmasSurpriseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmasSurpriseView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BE691632B366C720047BD08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BE6915D2B366C720047BD08 = {
+			isa = PBXGroup;
+			children = (
+				4BE691682B366C720047BD08 /* SwiftUIChristmasTree */,
+				4BE691672B366C720047BD08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BE691672B366C720047BD08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BE691662B366C720047BD08 /* SwiftUIChristmasTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BE691682B366C720047BD08 /* SwiftUIChristmasTree */ = {
+			isa = PBXGroup;
+			children = (
+				4BE691692B366C720047BD08 /* SwiftUIChristmasTreeApp.swift */,
+				4BE6916B2B366C720047BD08 /* SwiftUIXmasTree.swift */,
+				4BE6919F2B36A38B0047BD08 /* XmasSurpriseView.swift */,
+				4BE691912B367B430047BD08 /* PresentView.swift */,
+				4BE691932B368A270047BD08 /* GiftWithRibbonView.swift */,
+				4BE691952B368B770047BD08 /* HeartWithRibbonView.swift */,
+				4BE691972B368CD00047BD08 /* MrsClausView.swift */,
+				4BE691992B3690260047BD08 /* FatherChristmasView.swift */,
+				4BE6919B2B3690B00047BD08 /* MxClausView.swift */,
+				4BE6919D2B3691470047BD08 /* CompositorView.swift */,
+				4BE6916D2B366C740047BD08 /* Assets.xcassets */,
+				4BE6916F2B366C740047BD08 /* Preview Content */,
+			);
+			path = SwiftUIChristmasTree;
+			sourceTree = "<group>";
+		};
+		4BE6916F2B366C740047BD08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BE691702B366C740047BD08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BE691652B366C720047BD08 /* SwiftUIChristmasTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE691742B366C740047BD08 /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTree" */;
+			buildPhases = (
+				4BE691622B366C720047BD08 /* Sources */,
+				4BE691632B366C720047BD08 /* Frameworks */,
+				4BE691642B366C720047BD08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIChristmasTree;
+			productName = SwiftUIChristmasTree;
+			productReference = 4BE691662B366C720047BD08 /* SwiftUIChristmasTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BE6915E2B366C720047BD08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4BE691652B366C720047BD08 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4BE691612B366C720047BD08 /* Build configuration list for PBXProject "SwiftUIChristmasTree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BE6915D2B366C720047BD08;
+			productRefGroup = 4BE691672B366C720047BD08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BE691652B366C720047BD08 /* SwiftUIChristmasTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BE691642B366C720047BD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE691712B366C740047BD08 /* Preview Assets.xcassets in Resources */,
+				4BE6916E2B366C740047BD08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BE691622B366C720047BD08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE691962B368B770047BD08 /* HeartWithRibbonView.swift in Sources */,
+				4BE6919E2B3691470047BD08 /* CompositorView.swift in Sources */,
+				4BE691A02B36A38B0047BD08 /* XmasSurpriseView.swift in Sources */,
+				4BE6919A2B3690260047BD08 /* FatherChristmasView.swift in Sources */,
+				4BE6919C2B3690B00047BD08 /* MxClausView.swift in Sources */,
+				4BE6916C2B366C720047BD08 /* SwiftUIXmasTree.swift in Sources */,
+				4BE691922B367B430047BD08 /* PresentView.swift in Sources */,
+				4BE691942B368A270047BD08 /* GiftWithRibbonView.swift in Sources */,
+				4BE6916A2B366C720047BD08 /* SwiftUIChristmasTreeApp.swift in Sources */,
+				4BE691982B368CD00047BD08 /* MrsClausView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4BE691722B366C740047BD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BE691732B366C740047BD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE691752B366C740047BD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIChristmasTree/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amosgyamfi.SwiftUIChristmasTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE691762B366C740047BD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIChristmasTree/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amosgyamfi.SwiftUIChristmasTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BE691612B366C720047BD08 /* Build configuration list for PBXProject "SwiftUIChristmasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE691722B366C740047BD08 /* Debug */,
+				4BE691732B366C740047BD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE691742B366C740047BD08 /* Build configuration list for PBXNativeTarget "SwiftUIChristmasTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE691752B366C740047BD08 /* Debug */,
+				4BE691762B366C740047BD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BE6915E2B366C720047BD08 /* Project object */;
+}
