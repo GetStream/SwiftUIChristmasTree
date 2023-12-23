@@ -4,6 +4,8 @@
 
 Explore the Xcode project folder and check out the various SwiftUI animation files. Enjoy. 
 
+![SwiftUI Christmas Tree](https://github.com/GetStream/SwiftUIChristmasTree/blob/main/GIF%20Previews/SwiftUIChristmasTree.gif)
+
 ```swift
 //
 //  SwiftUIChristmasTree.swift
