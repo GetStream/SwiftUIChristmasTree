@@ -251,3 +251,5 @@ struct SwiftUIXmasTree: View {
 }
 
 ```
+
+## SwiftUI Christmas tree and fireworks: Coming on 31/12/2023. Stay tuned.
