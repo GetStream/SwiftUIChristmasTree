@@ -19,6 +19,7 @@
 		4BE6919C2B3690B00047BD08 /* MxClausView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6919B2B3690B00047BD08 /* MxClausView.swift */; };
 		4BE6919E2B3691470047BD08 /* CompositorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6919D2B3691470047BD08 /* CompositorView.swift */; };
 		4BE691A02B36A38B0047BD08 /* XmasSurpriseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6919F2B36A38B0047BD08 /* XmasSurpriseView.swift */; };
+		845A2D522D1903CD00E106C3 /* SwiftUIXmasTree24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A2D512D1903CD00E106C3 /* SwiftUIXmasTree24.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4BE6919B2B3690B00047BD08 /* MxClausView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MxClausView.swift; sourceTree = "<group>"; };
 		4BE6919D2B3691470047BD08 /* CompositorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositorView.swift; sourceTree = "<group>"; };
 		4BE6919F2B36A38B0047BD08 /* XmasSurpriseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmasSurpriseView.swift; sourceTree = "<group>"; };
+		845A2D512D1903CD00E106C3 /* SwiftUIXmasTree24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIXmasTree24.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		4BE691682B366C720047BD08 /* SwiftUIChristmasTree */ = {
 			isa = PBXGroup;
 			children = (
+				845A2D502D19036200E106C3 /* 2024-2025 */,
 				4BE691692B366C720047BD08 /* SwiftUIChristmasTreeApp.swift */,
 				4BE6916B2B366C720047BD08 /* SwiftUIXmasTree.swift */,
 				4BE6919F2B36A38B0047BD08 /* XmasSurpriseView.swift */,
@@ -89,6 +92,14 @@
 				4BE691702B366C740047BD08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		845A2D502D19036200E106C3 /* 2024-2025 */ = {
+			isa = PBXGroup;
+			children = (
+				845A2D512D1903CD00E106C3 /* SwiftUIXmasTree24.swift */,
+			);
+			path = "2024-2025";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			files = (
 				4BE691962B368B770047BD08 /* HeartWithRibbonView.swift in Sources */,
 				4BE6919E2B3691470047BD08 /* CompositorView.swift in Sources */,
+				845A2D522D1903CD00E106C3 /* SwiftUIXmasTree24.swift in Sources */,
 				4BE691A02B36A38B0047BD08 /* XmasSurpriseView.swift in Sources */,
 				4BE6919A2B3690260047BD08 /* FatherChristmasView.swift in Sources */,
 				4BE6919C2B3690B00047BD08 /* MxClausView.swift in Sources */,
@@ -312,6 +324,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +354,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
